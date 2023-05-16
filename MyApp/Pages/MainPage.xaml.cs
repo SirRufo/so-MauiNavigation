@@ -12,6 +12,7 @@ public partial class MainPage : ContentPage
 
     async void OneButton_Clicked( System.Object sender, System.EventArgs e )
     {
+        var route = Routing.FormatRoute( "test" );
         await _navigationService.GoToAsync( "one" );
     }
 

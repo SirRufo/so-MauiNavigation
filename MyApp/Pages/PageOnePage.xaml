@@ -9,5 +9,9 @@
                 Text="two"
                 Clicked="Button_Clicked"/>
 
+        <Button HorizontalOptions="Center"
+                Text="home"
+                Clicked="MainButton_Clicked"/>
+
     </VerticalStackLayout>
 </ContentPage>

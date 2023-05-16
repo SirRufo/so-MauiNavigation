@@ -12,5 +12,14 @@
         ContentTemplate="{DataTemplate pages:MainPage}"
         Route="MainPage" />
 
+    <ShellContent
+        Title="One"
+        ContentTemplate="{DataTemplate pages:PageOnePage}"
+        Route="one" />
+
+    <ShellContent
+        Title="Two"
+        ContentTemplate="{DataTemplate pages:PageTwoPage}"
+        Route="two" />
 </Shell>
 
