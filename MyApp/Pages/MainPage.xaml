@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyApp.Pages.MainPage"
+             Title="MainPage">
+    <VerticalStackLayout VerticalOptions="Center">
+
+        <Button HorizontalOptions="Center"
+                Text="one"
+                Clicked="OneButton_Clicked"/>
+
+        <Button HorizontalOptions="Center"
+                Text="two"
+                Clicked="TwoButton_Clicked"/>
+
+    </VerticalStackLayout>
+</ContentPage>
