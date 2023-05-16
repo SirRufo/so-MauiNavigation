@@ -18,7 +18,11 @@ public static class MauiProgram
             } );
 
         builder.Services
-            .AddSingleton<AppShell>()
+            .AddSingleton<IMyNavigationService, MyNavigationService>()
+
+            .AddTransient<AppShell>()
+            .AddTransient<LoginPage>()
+
             .AddTransient<MainPage>()
             .AddTransient<PageOnePage>()
             .AddTransient<PageTwoPage>()
@@ -34,4 +38,3 @@ public static class MauiProgram
         return builder.Build();
     }
 }
-

@@ -13,5 +13,9 @@
                 Text="two"
                 Clicked="TwoButton_Clicked"/>
 
+        <Button HorizontalOptions="Center"
+                Text="logout"
+                Clicked="LogoutButton_Clicked"/>
+
     </VerticalStackLayout>
 </ContentPage>

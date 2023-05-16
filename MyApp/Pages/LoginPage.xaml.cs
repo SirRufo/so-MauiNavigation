@@ -1,10 +1,10 @@
 ﻿namespace MyApp.Pages;
 
-public partial class PageTwoPage : ContentPage
+public partial class LoginPage : ContentPage
 {
     private readonly IMyNavigationService _navigationService;
 
-    public PageTwoPage( IMyNavigationService navigationService )
+    public LoginPage( IMyNavigationService navigationService )
     {
         InitializeComponent();
         _navigationService = navigationService;
@@ -12,6 +12,6 @@ public partial class PageTwoPage : ContentPage
 
     async void Button_Clicked( System.Object sender, System.EventArgs e )
     {
-        await _navigationService.GoToAsync( "one" );
+        await _navigationService.GoToAsync( "//MainPage" );
     }
 }
