@@ -27,11 +27,11 @@ public static class MauiProgram
             .AddTransient<PageOnePage>()
             .AddTransient<PageTwoPage>()
             ;
-
+        /*
         Routing.RegisterRoute( "one", typeof( PageOnePage ) );
         Routing.RegisterRoute( "two", typeof( PageTwoPage ) );
         Routing.RegisterRoute( "MainPage", typeof( MainPage ) );
-
+        */
 #if DEBUG
         builder.Logging.AddDebug();
 #endif

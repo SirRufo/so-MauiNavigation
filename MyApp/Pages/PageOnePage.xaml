@@ -13,5 +13,9 @@
                 Text="home"
                 Clicked="MainButton_Clicked"/>
 
+        <Button HorizontalOptions="Center"
+                Text="back"
+                Clicked="BackButton_Clicked"/>
+
     </VerticalStackLayout>
 </ContentPage>

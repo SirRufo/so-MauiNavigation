@@ -9,5 +9,9 @@
                 Text="one"
                 Clicked="Button_Clicked"/>
 
+        <Button HorizontalOptions="Center"
+                Text="Back"
+                Clicked="BackButton_Clicked"/>
+
     </VerticalStackLayout>
 </ContentPage>

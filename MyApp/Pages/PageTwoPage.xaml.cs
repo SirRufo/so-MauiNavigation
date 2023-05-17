@@ -14,4 +14,9 @@ public partial class PageTwoPage : ContentPage
     {
         await _navigationService.GoToAsync( "one" );
     }
+
+    async void BackButton_Clicked( System.Object sender, System.EventArgs e )
+    {
+        await _navigationService.GoToAsync( ".." );
+    }
 }
